@@ -578,7 +578,7 @@ sendEphemeral: false,
           let authorname = Ramdani.contacts[from] != undefined ? Ramdani.contacts[from].vname || Ramdani.contacts[from].notify : undefined	
           if (authorname != undefined) { } else { authorname = groupName }	
           function addMetadata(packname, author) {	
-          if (!packname) packname = 'Dibuat Oleh'; if (!author) author = '© Ramdani Official';author = author.replace(/[^a-zA-Z0-9]/g, '');	
+          if (!packname) packname = 'Dibuat Oleh'; if (!author) author = '© Animekarsa  Official';author = author.replace(/[^a-zA-Z0-9]/g, '');	
           let name = `${author}_${packname}`
           if (fs.existsSync(`./media/sticker/${name}.exif`)) return `./media/sticker/${name}.exif`
           const json = {	
@@ -1137,14 +1137,14 @@ break
 
     『 *BOT INFO* 』
 
-⛱ *Device* : xiaomi redmi 4A
+⛱ *Device* : Nokia 
 🗺 *Wa Version* : 2.22.3.77
 💬 *OS Version* : 10
 🌐 *Platfrom* : android/pc
 📳 *Mode* : > public mode <
 ☢ *Prefix* : > multi prefix <
 🔋 *baterai bot* : ${baterai}
-👨💻 *Name Creator* : Ramdani Official
+👨💻 *Name Owner* : Animekarsa Official
 
 
        『 *USER INFO* 』
@@ -1871,10 +1871,7 @@ case 'script2': case 'sc2':
 if (!isRegist) return freply(mess.regist)
 if (isBanned) return freply(mess.banned)
 freply(`━━━━━ *SCRIPT* ━━━━━
-❏ LINK VIA GITHUB : https://github.com/Ramdaniofficial/v17
-❏ BASE ORI : Ramdani Official
-❏ TYPE SC : nodejs
-❏ DI BUAT PADA : sel, 29, mart, 2022
+❏SC Cari Sendiri Di YT Ramadani
 *━━━━━━━━━━━━━━━━━━━━*`)
 break
 case 'alllmenu2':
@@ -2002,6 +1999,7 @@ freply(`• *BIG THANKS TO*
 • RAMDANI OFFICIAL (ME)
 • ARUL (MY GURU)
 • MHANKBARBAR (MASTAH)
+• ANIMEKARSA (OWNER RUN BOT)
 • APRILIA
 • ZEEONE OFC
 • DIKA ARDNT
